@@ -4,6 +4,8 @@
 This project is a RESTful API built using **Node.js** and **MongoDB**. It provides functionality for managing services (like creating, retrieving, updating, and deleting services) and includes detailed instructions for setting up and testing the API.
 
 ---
+## API Documentation Link : https://documenter.getpostman.com/view/38197197/2sAXxWYU79
+
 
 ## Technology Stack
 - **Node.js**: Server-side runtime environment.
@@ -29,5 +31,16 @@ Follow the steps below to set up and run the project locally:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/project-name.git
+   git clone <repo Link>
    cd project-name
+
+2. Install dependencies:
+   ```bash
+   npm install
+3. Set up your environment variables by creating a .env file: 
+   ```bash
+   MONGO_URI=<MongoDB Connection URL>
+   
+4. Start the application:
+```bash
+ node index.js
