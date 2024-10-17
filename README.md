@@ -1,4 +1,4 @@
-# Project Name
+# Health-Service-API
 
 ## Overview
 This project is a RESTful API built using **Node.js** and **MongoDB**. It provides functionality for managing services (like creating, retrieving, updating, and deleting services) and includes detailed instructions for setting up and testing the API.
